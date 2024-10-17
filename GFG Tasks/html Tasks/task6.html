@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Semantic Elements</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            width: 100%;
+            text-align: center;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        main {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 90%;
+        }
+
+        article {
+            flex: 1;
+            padding: 20px;
+            background-color: #f4f4f4;
+            margin-right: 10px;
+        }
+
+        aside {
+            flex: 0 0 300px;
+            padding: 20px;
+            background-color: #e2e2e2;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Website</h1>
+    <nav>
+        <a href="#home" style="color: white; margin-right: 10px;">Home</a>
+        <a href="#about" style="color: white; margin-right: 10px;">About</a>
+        <a href="#contact" style="color: white;">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <article>
+        <section>
+            <h2>Main Article Title</h2>
+            <p>This is the content of the main article. It includes several paragraphs that are the primary content of the page.</p>
+            <p>HTML5 semantic elements help in organizing content in a way that is meaningful both for users and search engines.</p>
+        </section>
+
+        <section>
+            <h3>Subsection Title</h3>
+            <p>This is a subsection with additional content that helps break down the main article into smaller parts.</p>
+        </section>
+    </article>
+
+    <aside>
+        <h2>Related Information</h2>
+        <p>This is an aside element. It provides related content, such as links or other articles, which might be interesting to the user.</p>
+    </aside>
+</main>
+
+<footer>
+    <p>&copy; 2024 My Website. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
